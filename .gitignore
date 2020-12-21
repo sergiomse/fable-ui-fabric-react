@@ -328,3 +328,25 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+
+# Nuget outputs
+nuget/*.nupkg
+release.cmd
+release.sh
+localpackages/
+paket-files
+*.orig
+docs/content/license.md
+docs/content/release-notes.md
+.fake
+docs/tools/FSharp.Formatting.svclog
+.ionide.debug
+*.bak
+deploy/
+obj
+bin
+out
+.fable
+.vs
+.ionide
+*.fs.js
